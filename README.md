@@ -11,4 +11,4 @@ terraform plan
 
 terraform apply
 
-curl -X GET <load-balancer-dns-name>
+curl -X GET load-balancer-dns-name
