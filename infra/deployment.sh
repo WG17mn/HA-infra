@@ -8,5 +8,5 @@ yum install httpd -y
 systemctl start httpd
 systemctl enable httpd
 cd /var/www/html
-echo "This is an INSTANCE" > index.html
+echo "This is a very basic Web App to demo a HA architecture" > index.html
 
